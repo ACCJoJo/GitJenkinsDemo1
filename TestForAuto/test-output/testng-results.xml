@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="136163" started-at="2017-06-02T10:01:15Z" finished-at="2017-06-02T10:03:31Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="136163" started-at="2017-06-02T10:01:15Z" finished-at="2017-06-02T10:03:31Z">
+      <class name="SeleniumTestDemo.MainFunction">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:SeleniumTestDemo.MainFunction@3a8624]" name="beforeSuite" is-config="true" duration-ms="157" started-at="2017-06-02T18:01:15Z" finished-at="2017-06-02T18:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:SeleniumTestDemo.MainFunction@3a8624]" name="setUp" is-config="true" duration-ms="13804" started-at="2017-06-02T18:01:15Z" finished-at="2017-06-02T18:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login2()[pri:0, instance:SeleniumTestDemo.MainFunction@3a8624]" name="login2" duration-ms="39474" started-at="2017-06-02T18:01:29Z" description="Login the Newtour Page" finished-at="2017-06-02T18:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2 -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:SeleniumTestDemo.MainFunction@3a8624]" name="afterEachTest" is-config="true" duration-ms="425" started-at="2017-06-02T18:02:09Z" finished-at="2017-06-02T18:02:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login2 status=SUCCESS method=MainFunction.login2()[pri:0, instance:SeleniumTestDemo.MainFunction@3a8624] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="orderFlight()[pri:0, instance:SeleniumTestDemo.MainFunction@3a8624]" name="orderFlight" duration-ms="80582" started-at="2017-06-02T18:02:09Z" description="Complete the book flight" finished-at="2017-06-02T18:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderFlight -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:SeleniumTestDemo.MainFunction@3a8624]" name="afterEachTest" is-config="true" duration-ms="239" started-at="2017-06-02T18:03:30Z" finished-at="2017-06-02T18:03:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orderFlight status=SUCCESS method=MainFunction.orderFlight()[pri:0, instance:SeleniumTestDemo.MainFunction@3a8624] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTestDemo.MainFunction@3a8624]" name="tearDown" is-config="true" duration-ms="1620" started-at="2017-06-02T18:03:30Z" finished-at="2017-06-02T18:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:SeleniumTestDemo.MainFunction@3a8624]" name="afterSuite" is-config="true" duration-ms="27" started-at="2017-06-02T18:03:31Z" finished-at="2017-06-02T18:03:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- SeleniumTestDemo.MainFunction -->
+    </test> <!-- Login -->
+  </suite> <!-- Suite -->
+</testng-results>

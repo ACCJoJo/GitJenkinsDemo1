@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" allow-return-values="true">
+  <test name="Login">
+    <classes>
+      <class name="SeleniumTestDemo.MainFunction">
+        <methods>
+          <include name="login2"/>
+          <include name="orderFlight"/>
+        </methods>
+      </class> <!-- SeleniumTestDemo.MainFunction -->
+    </classes>
+  </test> <!-- Login -->
+  <test name="Login(failed)">
+    <classes>
+      <class name="SeleniumTestDemo.MainFunction">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="afterEachTest"/>
+          <include name="orderFlight"/>
+        </methods>
+      </class> <!-- SeleniumTestDemo.MainFunction -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test name="Login(failed)">
+    <classes>
+      <class name="SeleniumTestDemo.MainFunction">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="login2"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="orderFlight"/>
+        </methods>
+      </class> <!-- SeleniumTestDemo.MainFunction -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test name="Login(failed)(failed)">
+    <classes>
+      <class name="SeleniumTestDemo.MainFunction">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="orderFlight"/>
+        </methods>
+      </class> <!-- SeleniumTestDemo.MainFunction -->
+    </classes>
+  </test> <!-- Login(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

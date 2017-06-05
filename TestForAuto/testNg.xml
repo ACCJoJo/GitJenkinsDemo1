@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false" allow-return-values="true">
+ <test name="Login" preserve-order="true">
+    <classes>
+      <class name="SeleniumTestDemo.MainFunction">
+        <methods>
+          <include name="login2"/>
+           <include name="orderFlight"/>
+        </methods>
+      </class> <!-- SeleniumTestDemo.MainFunction -->
+    </classes>
+  </test>
+
+  
+</suite> <!-- Default suite -->
